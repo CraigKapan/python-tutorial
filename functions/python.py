@@ -22,6 +22,25 @@ def square():
     qazi_turtle.right(90)
     qazi_turtle.forward(100)
 
-square()
-qazi_turtle.forward(200)
-square()
+#square()
+
+def traingle():
+  qazi_turtle.right(45)
+  qazi_turtle.forward(200)
+  qazi_turtle.right(135)
+  qazi_turtle.forward(280)
+  qazi_turtle.right(135)
+  qazi_turtle.forward(200)
+
+#traingle()
+
+def rectangle():
+    qazi_turtle.forward(200)
+    qazi_turtle.right(90)
+    qazi_turtle.forward(100)
+    qazi_turtle.right(90)
+    qazi_turtle.forward(200)
+    qazi_turtle.right(90)
+    qazi_turtle.forward(100)
+
+rectangle()
